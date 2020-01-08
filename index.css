@@ -53,19 +53,41 @@ body {
     background: linear-gradient(90deg, rgba(125, 187, 255), rgba(255,255,255));
 }
 .site_header {
-    display: flex;  
+	/*display: flex;  
+	justify-content: space-between;
+	*/
     
 }
 #site_logo {
-    font-size: 2rem;
+	font-size: 2rem;
+	border: 0px;
+	margin: 0px;
+	padding: 1%;
+	background: navy;
+
+	
+}
+
+#site_logo h1 {
+	width: 100%;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	color: tan;
 }
 #page_navigation nav ul {
-    display: flex;
+	display: flex;
+	justify-content: space-evenly;
+
 }
 
 #page_navigation nav ul a {
     text-decoration: none;
-    font-size: 1.125rem;
+	font-size: 1.125rem;
+	width: 100%;
+	border: 1px solid darkblue;
+	padding: 1%;
+	background: transparent;
+	
 }
 
 #site_map ul a{
